@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@byted-apaas/ide-shell-service": "workspace:*",
-    "@kunlun/kunlun-design": "^0.0.11",
-    "@opensumi/di": "^1.4.0",
+    "@opensumi/di": "1.8.0",
     "@opensumi/ide-core-browser": "2.22.8-next-1678359328.0",
     "@opensumi/ide-debug": "2.22.8-next-1678359328.0",
     "@opensumi/ide-editor": "2.22.8-next-1678359328.0",

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Divider } from '@kunlun/kunlun-design';
 
 import { ComponentContribution, ComponentRegistry, Domain, } from '@opensumi/ide-core-browser';
 
@@ -22,10 +21,7 @@ export const Toolbar = () => (
       函数编辑
     </div>
     <div className={'action'}>
-      <Button style={{fontSize: 12, lineHeight: 20}}>全局参数</Button>
-      <Button style={{fontSize: 12, lineHeight: 20}}>API 管理</Button>
-      <Divider type={'vertical'}/>
-      <Button style={{fontSize: 12, lineHeight: 20}} type={'primary'}>部署</Button>
+
     </div>
   </div>
 );
