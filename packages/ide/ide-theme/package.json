@@ -1,0 +1,22 @@
+{
+  "name": "@byted-apaas/ide-theme",
+  "displayName": "aPaaS default theme",
+  "description": "aPaaS default theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "apaas-default",
+        "label": "apaas-default",
+        "uiTheme": "vs",
+        "path": "./themes/apaas-default-color-theme.json"
+      }
+    ]
+  }
+}

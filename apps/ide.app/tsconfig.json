@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictFunctionTypes": false,
+    "jsx": "react",
+    "lib": ["dom", "esnext", "webworker"],
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "tslib": ["./node_modules/tslib/tslib.js"]
+    }
+  },
+  "exclude": [
+    "./extensions/**/*",
+    "./workspace/**/*",
+    "./hosted/**/*",
+    "./dist-node/**/*",
+    "./dist/**/*",
+    "./node_modules/**/*"
+  ]
+}

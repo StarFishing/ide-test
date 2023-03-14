@@ -1,0 +1,113 @@
+{
+  "version": "3.0.0",
+  "extensions": {
+    "vscode": [
+      {
+        "name": "typescript-language-features",
+        "version": "1.60.0"
+      },
+      {
+        "name": "configuration-editing",
+        "version": "1.55.2"
+      },
+      {
+        "name": "css",
+        "version": "1.55.2"
+      },
+      {
+        "name": "css-language-features",
+        "version": "1.55.2"
+      },
+      {
+        "name": "emmet",
+        "version": "1.55.2"
+      },
+      {
+        "name": "git",
+        "version": "1.62.3"
+      },
+      {
+        "name": "git-ui",
+        "version": "1.55.2"
+      },
+      {
+        "name": "git-base",
+        "version": "1.64.0-next.68976705968"
+      },
+      {
+        "name": "html",
+        "version": "1.55.2"
+      },
+      {
+        "name": "html-language-features",
+        "version": "1.55.2"
+      },
+      {
+        "name": "javascript",
+        "version": "1.60.0"
+      },
+      {
+        "name": "json",
+        "version": "1.55.2"
+      },
+      {
+        "name": "json-language-features",
+        "version": "1.55.2"
+      },
+      {
+        "name": "less",
+        "version": "1.55.2"
+      },
+      {
+        "name": "log",
+        "version": "1.55.2"
+      },
+      {
+        "name": "merge-conflict",
+        "version": "1.55.2"
+      },
+      {
+        "name": "scss",
+        "version": "1.55.2"
+      },
+      {
+        "name": "search-result",
+        "version": "1.55.2"
+      },
+      {
+        "name": "typescript",
+        "version": "1.60.0"
+      },
+      {
+        "name": "golang",
+        "version": "0.38.0"
+      },
+      {
+        "name": "yaml",
+        "version": "1.55.2"
+      },
+      {
+        "name": "theme-defaults",
+        "version": "1.55.2"
+      }
+    ],
+    "ms-vscode": [
+      {
+        "name": "js-debug",
+        "version": "1.69.0"
+      }
+    ],
+    "vscode-icons-team": [
+      {
+        "name": "vscode-icons",
+        "version": "11.11.0"
+      }
+    ],
+    "opensumi": [
+      {
+        "name": "opensumi-default-themes",
+        "version": "2.5.7"
+      }
+    ]
+  }
+}
