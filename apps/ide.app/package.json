@@ -8,7 +8,6 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run compile:worker-host && npm run compile:ext-host && npm run download:extensions",
     "download:extensions": "node scripts/download.js",
     "installTheme": "rm -rf ./extensions/apaas-ide-theme && cp -r ../../packages/ide/ide-theme/ ./extensions/apaas-ide-theme/ && echo 'install apaas theme success'",
     "compile:browser": "webpack --config ./configs/webpack.browser.config.js",
@@ -123,7 +122,8 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "p-map": "^3.0.0",
     "process": "^0.11.10",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16",
+    "react": "^16",
     "rimraf": "^3.0.0",
     "serviceworker-webpack-plugin": "^1.0.1",
     "style-loader": "^0.23.1",

@@ -11,6 +11,8 @@
     "@opensumi/ide-core-browser": "2.22.8-next-1678359328.0",
     "@opensumi/ide-core-node": "2.22.8-next-1678359328.0",
     "@opensumi/ide-utils": "2.22.8-next-1678359328.0",
-    "@opensumi/ide-workspace": "2.22.8-next-1678359328.0"
+    "@opensumi/ide-workspace": "2.22.8-next-1678359328.0",
+    "react-dom": "^16",
+    "react": "^16"
   }
 }
