@@ -21,10 +21,6 @@
     "start:webview": "webpack serve --config ./configs/webpack.webview.config.js",
     "start:server": "cross-env EXT_MODE=js KTLOG_SHOW_DEBUG=1 node --inspect=9991 -r ts-node/register -r tsconfig-paths/register ./src/node/index.ts"
   },
-  "resolutions": {
-    "vscode-languageserver-protocol": "3.16.0",
-    "yargs": "13.3.2"
-  },
   "dependencies": {
     "@byted-apaas/ide-apaas-ui": "workspace:*",
     "@byted-apaas/ide-shell-service": "workspace:*",
@@ -86,6 +82,7 @@
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
     "request": "^2.88.2",
+    "setimmediate": "^1.0.5",
     "stream-browserify": "^3.0.0",
     "util": "^0.12.5"
   },
@@ -122,8 +119,8 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "p-map": "^3.0.0",
     "process": "^0.11.10",
-    "react-dom": "^16",
     "react": "^16",
+    "react-dom": "^16",
     "rimraf": "^3.0.0",
     "serviceworker-webpack-plugin": "^1.0.1",
     "style-loader": "^0.23.1",

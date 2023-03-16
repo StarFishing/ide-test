@@ -66,7 +66,7 @@ module.exports = {
   },
   externals: [
     function (context, request, callback) {
-      if (['node-pty', 'oniguruma', '@parcel/watcher', 'spdlog', 'efsw', 'getmac'].indexOf(request) !== -1) {
+      if (['node-pty', 'oniguruma', '@parcel/watcher', 'spdlog', 'efsw', 'getmac', 'nsfw'].indexOf(request) !== -1) {
         return callback(null, `commonjs ${request}`);
       }
       callback();
