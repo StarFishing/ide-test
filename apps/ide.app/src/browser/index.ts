@@ -1,3 +1,4 @@
+import 'setimmediate';
 import '@opensumi/ide-i18n/lib/browser';
 import { ExpressFileServerModule } from '@opensumi/ide-express-file-server/lib/browser';
 import '@opensumi/ide-core-browser/lib/style/index.less';

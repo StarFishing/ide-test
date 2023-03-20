@@ -44,20 +44,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json', '.less'],
-    fallback: {
-      net: false,
-      child_process: false,
-      url: false,
-      fs: false,
-      path: require.resolve('path-browserify'),
-      crypto: require.resolve("crypto-browserify"),
-      os: require.resolve('os-browserify'),
-      stream: require.resolve('stream-browserify'),
-      "buffer": require.resolve("buffer")
-    },
-    alias: {
-      process: "process/browser"
-    },
     plugins: [
       // new webpack.ProvidePlugin({
       //   process: 'process/browser',
@@ -66,6 +52,20 @@ module.exports = {
         configFile: tsConfigPath,
       }),
     ],
+    alias: {
+      process: "process/browser",
+    },
+    fallback: {
+      crypto: false,
+      path: false,
+      os: false,
+      stream: false,
+      net: false,
+      fs: false,
+      url: false,
+      process: require.resolve('process'),
+      buffer: require.resolve('buffer'),
+    },
   },
   bail: true,
   module: {
@@ -157,6 +157,8 @@ module.exports = {
     new webpack.ProvidePlugin({
       process: 'process/browser',
       Buffer: ['buffer', 'Buffer'],
+      setImmediate: ['setimmediate', 'setImmediate'],
+      clearImmediate: ['setimmediate', 'clearImmedate']
     }),
 
     new HtmlWebpackPlugin({

@@ -53,6 +53,7 @@ module.exports = {
           '@opensumi/vscode-ripgrep',
           'vertx',
           'keytar',
+          'nsfw',
         ].indexOf(request) !== -1
       ) {
         return callback(null, `commonjs ${request}`);

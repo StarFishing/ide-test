@@ -1,4 +1,8 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
+
+overrides:
+  vscode-languageserver-protocol: 3.16.0
+  '@opensumi/vscode-jsonrpc': 8.0.0-next.9
 
 importers:
 
@@ -103,6 +107,7 @@ importers:
       request: ^2.88.2
       rimraf: ^3.0.0
       serviceworker-webpack-plugin: ^1.0.1
+      setimmediate: ^1.0.5
       stream-browserify: ^3.0.0
       style-loader: ^0.23.1
       style-resources-loader: ^1.2.1
@@ -128,7 +133,7 @@ importers:
       '@opensumi/di': 1.8.0
       '@opensumi/ide-addons': 2.22.8-next-1678359328.0
       '@opensumi/ide-collaboration': 2.22.8-next-1678359328.0
-      '@opensumi/ide-comments': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-comments': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-core-browser': 2.22.8-next-1678359328.0_react-dom@16.14.0
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
       '@opensumi/ide-core-node': 2.22.8-next-1678359328.0
@@ -147,7 +152,7 @@ importers:
       '@opensumi/ide-i18n': 2.22.8-next-1678359328.0
       '@opensumi/ide-keymaps': 2.22.8-next-1678359328.0
       '@opensumi/ide-logs': 2.22.8-next-1678359328.0
-      '@opensumi/ide-main-layout': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-main-layout': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-markdown': 2.22.8-next-1678359328.0
       '@opensumi/ide-markers': 2.22.8-next-1678359328.0
       '@opensumi/ide-monaco': 2.22.8-next-1678359328.0_react-dom@16.14.0
@@ -161,9 +166,9 @@ importers:
       '@opensumi/ide-remote-opener': 2.22.8-next-1678359328.0
       '@opensumi/ide-scm': 2.22.8-next-1678359328.0
       '@opensumi/ide-search': 2.22.8-next-1678359328.0
-      '@opensumi/ide-startup': 2.22.8-next-1678359328.0_dhq6r366r2jzxvs6uwedbfvime
+      '@opensumi/ide-startup': 2.22.8-next-1678359328.0_19e1e8efde8e939bd65ea5883096a861
       '@opensumi/ide-static-resource': 2.22.8-next-1678359328.0
-      '@opensumi/ide-status-bar': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-status-bar': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-storage': 2.22.8-next-1678359328.0
       '@opensumi/ide-task': 2.22.8-next-1678359328.0_node-gyp@9.3.1
       '@opensumi/ide-terminal-next': 2.22.8-next-1678359328.0_node-gyp@9.3.1
@@ -182,6 +187,7 @@ importers:
       os-browserify: 0.3.0
       path-browserify: 1.0.1
       request: 2.88.2
+      setimmediate: 1.0.5
       stream-browserify: 3.0.0
       util: 0.12.5
     devDependencies:
@@ -224,7 +230,7 @@ importers:
       style-loader: 0.23.1
       style-resources-loader: 1.5.0_webpack@5.75.0
       terser-webpack-plugin: 4.2.3_webpack@5.75.0
-      ts-loader: 9.4.2_uyjeyilaoraoef7u6cc2jqrzqe
+      ts-loader: 9.4.2_typescript@4.5.5+webpack@5.75.0
       ts-node: 10.9.1_typescript@4.5.5
       tsconfig-paths: 4.1.0
       tsconfig-paths-webpack-plugin: 3.5.2
@@ -232,10 +238,10 @@ importers:
       typescript: 4.5.5
       urllib: 2.40.0
       uuid: 8.3.2
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-bundle-analyzer: 3.9.0
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
-      webpack-dev-server: 4.11.1_mepfaevnoemy6jnc3vj4bih4vm
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
+      webpack-dev-server: 4.11.1_611e5012ad71198f25a2dd53c0a0fcab
       yauzl: 2.10.0
 
   packages/ide/apaas-lowcode:
@@ -320,7 +326,7 @@ packages:
   /@ant-design/icons-svg/4.2.1:
     resolution: {integrity: sha512-EB0iwlKDGpG93hW8f85CTJTs4SvMX7tt5ceupvhALp1IF44SeUFOMhKUOYqpsoYWQKAOuTRDMqn75rEaKDp0Xw==}
 
-  /@ant-design/icons/4.8.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /@ant-design/icons/4.8.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-T89P2jG2vM7OJ0IfGx2+9FC5sQjtTzRSz+mCHTXkFn/ELZc2YpfStmYHmqzq2Jx55J0F7+O6i5/ZKFSVNWCKNg==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -331,7 +337,7 @@ packages:
       '@ant-design/icons-svg': 4.2.1
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
@@ -508,40 +514,39 @@ packages:
       yjs: 13.5.39
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
     dev: false
 
-  /@opensumi/ide-comments/2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /@opensumi/ide-comments/2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-urjI7CDx3OwOFzz1/r9t5WUvh/eYb1VZcP6D7io/vdSBl3LYRugQBQ/Ld0pE1U9nep06PP7FyQJWrROsOvR3kQ==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
-      react-mentions: 3.3.2_wcqkhtmu7mswc6yz4uyexck3ty
+      react-mentions: 3.3.2_react-dom@16.14.0+react@16.14.0
     transitivePeerDependencies:
       - react
       - react-dom
     dev: false
 
-  /@opensumi/ide-components/2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /@opensumi/ide-components/2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-WDh+GFJzPO+5HQfXDpAwNwBW+txXt7mL8IuC0HglAbHL6oZsc2Vay2vSuPY8Xg1SODADdWcUwecf5KytouI8Gg==}
     dependencies:
-      '@ant-design/icons': 4.8.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@ant-design/icons': 4.8.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-utils': 2.22.8-next-1678359328.0
       fuzzy: 0.1.3
       lodash: 4.17.21
       marked: 4.0.10
       raf: 3.4.1
-      rc-dialog: 7.6.1_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-dropdown: 2.4.1_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-menu: 9.8.2_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-notification: 3.3.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-dialog: 7.6.1
+      rc-dropdown: 2.4.1
+      rc-menu: 9.8.2_react-dom@16.14.0+react@16.14.0
+      rc-notification: 3.3.1
       rc-util: 4.21.1
-      react-ctxmenu-trigger: 1.0.1_wcqkhtmu7mswc6yz4uyexck3ty
-      react-custom-scrollbars: 4.2.1_wcqkhtmu7mswc6yz4uyexck3ty
+      react-ctxmenu-trigger: 1.0.1
+      react-custom-scrollbars: 4.2.1_react-dom@16.14.0+react@16.14.0
       react-lifecycles-compat: 3.0.4
-      react-virtualized-auto-sizer: 1.0.7_wcqkhtmu7mswc6yz4uyexck3ty
-      react-virtuoso: 3.1.5_wcqkhtmu7mswc6yz4uyexck3ty
-      react-window: 1.8.8_wcqkhtmu7mswc6yz4uyexck3ty
+      react-virtualized-auto-sizer: 1.0.7_react-dom@16.14.0+react@16.14.0
+      react-virtuoso: 3.1.5_react-dom@16.14.0+react@16.14.0
+      react-window: 1.8.8_react-dom@16.14.0+react@16.14.0
     transitivePeerDependencies:
       - react
       - react-dom
@@ -550,7 +555,7 @@ packages:
     resolution: {integrity: sha512-OruMLwTNfjvcIqNyuhVXiJJbRnh0WlQk8RzsUxPFTrYR/2IZP9KA7yedDOxk8vzJRBygdVSForxsDY3c6k5VgA==}
     dependencies:
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
-      '@opensumi/vscode-jsonrpc': 8.0.0-next.6
+      '@opensumi/vscode-jsonrpc': 8.0.0-next.9
       path-match: 1.2.4
       reconnecting-websocket: 4.4.0
       ws: 8.13.0
@@ -561,7 +566,7 @@ packages:
   /@opensumi/ide-core-browser/2.22.8-next-1678359328.0_react-dom@16.14.0:
     resolution: {integrity: sha512-c5zAx1LZCUb15U+Besn50uWr1kAQVKJJ+X7Ns0xIF2zKU27ZfFr2UaPjx5yWYpLiXL70zS9PPSvuKvsH2sJN4w==}
     dependencies:
-      '@opensumi/ide-components': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-components': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-connection': 2.22.8-next-1678359328.0
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
       '@opensumi/vscode-debugprotocol': 1.49.0-beta.1
@@ -576,14 +581,14 @@ packages:
       mobx: 5.15.7
       mobx-react-lite: 1.5.2_mobx@5.15.7+react@16.14.0
       onigasm: 2.2.2
-      rc-menu: 9.8.2_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-menu: 9.8.2_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
-      react-autosize-textarea: 7.1.0_wcqkhtmu7mswc6yz4uyexck3ty
-      react-ctxmenu-trigger: 1.0.1_wcqkhtmu7mswc6yz4uyexck3ty
-      react-custom-scrollbars: 4.2.1_wcqkhtmu7mswc6yz4uyexck3ty
+      react-autosize-textarea: 7.1.0_react-dom@16.14.0+react@16.14.0
+      react-ctxmenu-trigger: 1.0.1
+      react-custom-scrollbars: 4.2.1_react-dom@16.14.0+react@16.14.0
       react-is: 16.13.1
-      react-sticky: 6.0.3_wcqkhtmu7mswc6yz4uyexck3ty
-      react-window: 1.8.8_wcqkhtmu7mswc6yz4uyexck3ty
+      react-sticky: 6.0.3_react-dom@16.14.0+react@16.14.0
+      react-window: 1.8.8_react-dom@16.14.0+react@16.14.0
       resize-observer-polyfill: 1.5.1
       strip-json-comments: 3.0.1
       vscode-textmate: 7.0.1
@@ -623,7 +628,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -641,7 +645,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -667,7 +670,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - react-dom
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -711,7 +713,6 @@ packages:
       - electron
       - encoding
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -725,7 +726,6 @@ packages:
       '@opensumi/ide-workspace': 2.22.8-next-1678359328.0
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -742,7 +742,7 @@ packages:
       '@opensumi/ide-task': 2.22.8-next-1678359328.0_node-gyp@9.3.1
       '@opensumi/ide-terminal-next': 2.22.8-next-1678359328.0_node-gyp@9.3.1
       '@opensumi/ide-webview': 2.22.8-next-1678359328.0
-      '@opensumi/vscode-jsonrpc': 8.0.0-next.6
+      '@opensumi/vscode-jsonrpc': 8.0.0-next.9
       address: 1.2.2
       glob-to-regexp: 0.4.1
       is-running: 2.1.0
@@ -754,7 +754,6 @@ packages:
       - bufferutil
       - electron
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -767,7 +766,6 @@ packages:
       '@opensumi/ide-static-resource': 2.22.8-next-1678359328.0
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -800,7 +798,6 @@ packages:
       write-file-atomic: 4.0.2
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
 
   /@opensumi/ide-file-tree-next/2.22.8-next-1678359328.0:
@@ -810,7 +807,6 @@ packages:
       '@opensumi/ide-file-service': 2.22.8-next-1678359328.0
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -838,10 +834,10 @@ packages:
       - bufferutil
       - utf-8-validate
 
-  /@opensumi/ide-main-layout/2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /@opensumi/ide-main-layout/2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-+KUpbJ3OcpXsJk+/o8E9bYbFk0YpLD54n4CMBOUlnqy8Y9yEorh0vCn7sc5zv3vrsiqXQY1i0BF3uHvBgo+TTQ==}
     dependencies:
-      '@opensumi/ide-components': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-components': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
     transitivePeerDependencies:
       - react
@@ -962,12 +958,12 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@opensumi/ide-startup/2.22.8-next-1678359328.0_dhq6r366r2jzxvs6uwedbfvime:
+  /@opensumi/ide-startup/2.22.8-next-1678359328.0_19e1e8efde8e939bd65ea5883096a861:
     resolution: {integrity: sha512-wtYy4c9jG8nCIvoXAZMm1IcH3LrTIpEcXOT7e4occfNEgkVwPZzOX8pAo3Q3+hMgnl2AGq88Q+Ejj+KDnXwcKA==}
     dependencies:
       '@opensumi/ide-addons': 2.22.8-next-1678359328.0
       '@opensumi/ide-collaboration': 2.22.8-next-1678359328.0
-      '@opensumi/ide-comments': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-comments': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-core-browser': 2.22.8-next-1678359328.0_react-dom@16.14.0
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
       '@opensumi/ide-core-node': 2.22.8-next-1678359328.0
@@ -985,7 +981,7 @@ packages:
       '@opensumi/ide-i18n': 2.22.8-next-1678359328.0
       '@opensumi/ide-keymaps': 2.22.8-next-1678359328.0
       '@opensumi/ide-logs': 2.22.8-next-1678359328.0
-      '@opensumi/ide-main-layout': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-main-layout': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-markdown': 2.22.8-next-1678359328.0
       '@opensumi/ide-markers': 2.22.8-next-1678359328.0
       '@opensumi/ide-menu-bar': 2.22.8-next-1678359328.0
@@ -1002,7 +998,7 @@ packages:
       '@opensumi/ide-scm': 2.22.8-next-1678359328.0
       '@opensumi/ide-search': 2.22.8-next-1678359328.0
       '@opensumi/ide-static-resource': 2.22.8-next-1678359328.0
-      '@opensumi/ide-status-bar': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-status-bar': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-storage': 2.22.8-next-1678359328.0
       '@opensumi/ide-task': 2.22.8-next-1678359328.0_node-gyp@9.3.1
       '@opensumi/ide-terminal-next': 2.22.8-next-1678359328.0_node-gyp@9.3.1
@@ -1022,7 +1018,6 @@ packages:
       - node-gyp
       - react
       - react-dom
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -1030,10 +1025,10 @@ packages:
     resolution: {integrity: sha512-q/d68M5MMWWC2fTLamRf/QyidGGsI1yrxWt95ME9oYOZNyRgoSm41AsJkXfK7AccOuqjrrzXGUdttkCPBiDyRg==}
     dev: false
 
-  /@opensumi/ide-status-bar/2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /@opensumi/ide-status-bar/2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-8UXzF1wA+UT9gkcigmfbLvzjoolxB925qFuRTRIT46lXVFGUzJRUqppFPjOs4Ay6J5fn90ZSyHAY7pI7GhuDcA==}
     dependencies:
-      '@opensumi/ide-components': 2.22.8-next-1678359328.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@opensumi/ide-components': 2.22.8-next-1678359328.0_react-dom@16.14.0+react@16.14.0
       '@opensumi/ide-core-common': 2.22.8-next-1678359328.0
       '@opensumi/ide-core-node': 2.22.8-next-1678359328.0
       '@opensumi/ide-theme': 2.22.8-next-1678359328.0
@@ -1059,7 +1054,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -1072,7 +1066,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -1094,7 +1087,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -1116,7 +1108,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - node-gyp
-      - supports-color
       - utf-8-validate
     dev: false
 
@@ -1184,7 +1175,6 @@ packages:
       '@opensumi/ide-file-service': 2.22.8-next-1678359328.0
     transitivePeerDependencies:
       - bufferutil
-      - supports-color
       - utf-8-validate
 
   /@opensumi/monaco-editor-core/0.35.0-patch.3:
@@ -1200,8 +1190,8 @@ packages:
   /@opensumi/vscode-debugprotocol/1.49.0-beta.1:
     resolution: {integrity: sha512-0qKdsB1xd7xzeN0M27icx8XCw7IjNMih5XgsAl+BHhoAePZsOTKz6vI2ppBPJ553pdCxazrv7slsHWZIjyR7IA==}
 
-  /@opensumi/vscode-jsonrpc/8.0.0-next.6:
-    resolution: {integrity: sha512-JGM5DS7qjxTIiJyU/Gb4upLDsQ87KzwR8lnvOtotSykv0u1Napupo+lHQI/pA2mToX90yRVb450YiWOw1o9oiA==}
+  /@opensumi/vscode-jsonrpc/8.0.0-next.9:
+    resolution: {integrity: sha512-ccTwGgIhUgCbE21e94P+icFGzrt2pZEfgMLHL488LWJmfFllS92HiMq53ceGXXqGGCxk2m6q7sFiWWClvcRr6w==}
     engines: {node: '>=8.0.0 || >=10.0.0'}
 
   /@opensumi/vscode-ripgrep/1.4.0:
@@ -1660,29 +1650,29 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/configtest/2.0.1_rjsyjcrmk25kqsjzwkvj3a2evq:
+  /@webpack-cli/configtest/2.0.1_webpack-cli@5.0.1+webpack@5.75.0:
     resolution: {integrity: sha512-njsdJXJSiS2iNbQVS0eT8A/KPnmyH4pv1APj2K0d1wrZcBLw+yppxOy4CGqa0OxDJkzfL/XELDhD8rocnIwB5A==}
     engines: {node: '>=14.15.0'}
     peerDependencies:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
     dev: true
 
-  /@webpack-cli/info/2.0.1_rjsyjcrmk25kqsjzwkvj3a2evq:
+  /@webpack-cli/info/2.0.1_webpack-cli@5.0.1+webpack@5.75.0:
     resolution: {integrity: sha512-fE1UEWTwsAxRhrJNikE7v4EotYflkEhBL7EbajfkPlf6E37/2QshOy/D48Mw8G5XMFlQtS6YV42vtbG9zBpIQA==}
     engines: {node: '>=14.15.0'}
     peerDependencies:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
     dev: true
 
-  /@webpack-cli/serve/2.0.1_ewykyfxtgmraekx43xa23ld4wa:
+  /@webpack-cli/serve/2.0.1_25b0ac16f33322022afcddc1adac7cb0:
     resolution: {integrity: sha512-0G7tNyS+yW8TdgHwZKlDWYXFA6OJQnoLCQvYKkQP0Q2X205PSQ6RNUj0M+1OB/9gRQaUZ/ccYfaxd0nhaWKfjw==}
     engines: {node: '>=14.15.0'}
     peerDependencies:
@@ -1693,9 +1683,9 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
-      webpack-dev-server: 4.11.1_mepfaevnoemy6jnc3vj4bih4vm
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
+      webpack-dev-server: 4.11.1_611e5012ad71198f25a2dd53c0a0fcab
     dev: true
 
   /@xtuc/ieee754/1.2.0:
@@ -2111,8 +2101,6 @@ packages:
       raw-body: 2.5.1
       type-is: 1.6.18
       unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /bonjour-service/1.1.0:
@@ -2297,8 +2285,6 @@ packages:
       ssri: 8.0.1
       tar: 6.1.13
       unique-filename: 1.1.1
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
   /cacache/16.1.3:
@@ -2323,8 +2309,6 @@ packages:
       ssri: 9.0.1
       tar: 6.1.13
       unique-filename: 2.0.1
-    transitivePeerDependencies:
-      - bluebird
     dev: false
 
   /cache-content-type/1.0.1:
@@ -2448,9 +2432,6 @@ packages:
     dependencies:
       commander: 2.11.0
       ws: 3.3.3
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
     dev: false
 
   /chrome-trace-event/1.0.3:
@@ -2490,7 +2471,7 @@ packages:
     dependencies:
       '@types/webpack': 4.41.33
       del: 4.1.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /clone-deep/4.0.1:
@@ -2639,8 +2620,6 @@ packages:
       on-headers: 1.0.2
       safe-buffer: 5.1.2
       vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /computed-style/0.1.4:
@@ -2734,7 +2713,7 @@ packages:
       p-limit: 2.3.0
       schema-utils: 1.0.0
       serialize-javascript: 4.0.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-log: 2.0.0
     dev: true
 
@@ -2874,7 +2853,7 @@ packages:
       postcss-modules-values: 2.0.0
       postcss-value-parser: 3.3.1
       schema-utils: 1.0.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /css-select/4.3.0:
@@ -2990,22 +2969,12 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
     dev: true
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.1.3
 
@@ -3251,8 +3220,6 @@ packages:
       fast-plist: 0.1.3
       nan: 2.17.0
       prebuild-install: 4.0.0
-    transitivePeerDependencies:
-      - supports-color
 
   /duplexer/0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
@@ -3707,7 +3674,7 @@ packages:
       json5: 2.2.3
       loader-utils: 2.0.4
       tapable: 2.2.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-sources: 2.3.1
     dev: true
 
@@ -4065,8 +4032,6 @@ packages:
       type-is: 1.6.18
       utils-merge: 1.0.1
       vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /extend-shallow/2.0.1:
@@ -4133,7 +4098,7 @@ packages:
     dependencies:
       loader-utils: 1.4.2
       schema-utils: 1.0.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /file-type/12.4.2:
@@ -4170,8 +4135,6 @@ packages:
       parseurl: 1.3.3
       statuses: 2.0.1
       unpipe: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /find-cache-dir/2.1.0:
@@ -4277,7 +4240,7 @@ packages:
       chalk: 1.1.3
       error-stack-parser: 2.1.4
       string-width: 2.1.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /from2/2.3.0:
@@ -4706,7 +4669,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /htmlparser2/6.1.0:
@@ -4809,7 +4772,7 @@ packages:
       - debug
     dev: true
 
-  /http-proxy-middleware/2.0.6_cdocoejotnspksifechgljubnq:
+  /http-proxy-middleware/2.0.6_10dc27112e9b64f54905208e65a6816c:
     resolution: {integrity: sha512-ya/UeJ6HVBYxrgYotAZo1KvPWlgB48kUJLDePFeneHsVujFaW5WNj2NgWCAE//B1Dl02BIfYlpNgBy8Kf8Rjmw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -5502,7 +5465,7 @@ packages:
       less: 3.13.1
       loader-utils: 2.0.4
       schema-utils: 2.7.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /less/3.13.1:
@@ -5793,7 +5756,6 @@ packages:
       socks-proxy-agent: 7.0.0
       ssri: 9.0.1
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: false
 
@@ -5921,7 +5883,7 @@ packages:
       loader-utils: 1.4.2
       normalize-url: 2.0.1
       schema-utils: 1.0.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-sources: 1.4.3
     dev: true
 
@@ -6210,7 +6172,6 @@ packages:
       tar: 6.1.13
       which: 2.0.2
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: false
 
@@ -6379,7 +6340,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.1.1
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /number-is-nan/1.0.1:
@@ -6472,7 +6433,7 @@ packages:
       cssnano: 5.1.15_postcss@8.4.21
       last-call-webpack-plugin: 3.0.0
       postcss: 8.4.21
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /optionator/0.8.3:
@@ -7230,11 +7191,6 @@ packages:
 
   /promise-inflight/1.0.1:
     resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
-    peerDependencies:
-      bluebird: '*'
-    peerDependenciesMeta:
-      bluebird:
-        optional: true
 
   /promise-retry/2.0.1:
     resolution: {integrity: sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==}
@@ -7418,7 +7374,7 @@ packages:
       prop-types: 15.8.1
       rc-util: 4.21.1
 
-  /rc-align/4.0.15_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-align/4.0.15_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-wqJtVH60pka/nOX7/IspElA8gjPNQKIx/ZqJ6heATCkXpe1Zg4cPVrMD2vC96wjsFFL8WsmhPbx9tdMo1qqlIA==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7427,16 +7383,13 @@ packages:
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
       dom-align: 1.12.4
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
       resize-observer-polyfill: 1.5.1
 
-  /rc-animate/2.11.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-animate/2.11.1:
     resolution: {integrity: sha512-1NyuCGFJG/0Y+9RKh5y/i/AalUCA51opyyS/jO2seELpgymZm2u9QV3xwODwEuzkmeQ1BDPxMLmYLcTJedPlkQ==}
-    peerDependencies:
-      react: '>=16.9.0'
-      react-dom: '>=16.9.0'
     dependencies:
       babel-runtime: 6.26.0
       classnames: 2.3.1
@@ -7444,33 +7397,25 @@ packages:
       prop-types: 15.8.1
       raf: 3.4.1
       rc-util: 4.21.1
-      react: 16.14.0
-      react-dom: 16.14.0_react@16.14.0
       react-lifecycles-compat: 3.0.4
 
-  /rc-dialog/7.6.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-dialog/7.6.1:
     resolution: {integrity: sha512-KUKf+2eZ4YL+lnXMG3hR4ZtIhC9glfH27NtTVz3gcoDIPAf3uUvaXVRNoDCiSi+OGKLyIb/b6EoidFh6nQC5Wg==}
     dependencies:
       babel-runtime: 6.26.0
-      rc-animate: 2.11.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-animate: 2.11.1
       rc-util: 4.21.1
-    transitivePeerDependencies:
-      - react
-      - react-dom
 
-  /rc-dropdown/2.4.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-dropdown/2.4.1:
     resolution: {integrity: sha512-p0XYn0wrOpAZ2fUGE6YJ6U8JBNc5ASijznZ6dkojdaEfQJAeZtV9KMEewhxkVlxGSbbdXe10ptjBlTEW9vEwEg==}
     dependencies:
       babel-runtime: 6.26.0
       classnames: 2.3.1
       prop-types: 15.8.1
-      rc-trigger: 2.6.5_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-trigger: 2.6.5
       react-lifecycles-compat: 3.0.4
-    transitivePeerDependencies:
-      - react
-      - react-dom
 
-  /rc-menu/9.8.2_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-menu/9.8.2_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-EahOJVjLuEnJsThoPN+mGnVm431RzVzDLZWHRS/YnXTQULa7OsgdJa/Y7qXxc3Z5sz8mgT6xYtgpmBXLxrZFaQ==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7478,14 +7423,14 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
-      rc-motion: 2.6.3_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-overflow: 1.2.8_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-trigger: 5.3.4_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-motion: 2.6.3_react-dom@16.14.0+react@16.14.0
+      rc-overflow: 1.2.8_react-dom@16.14.0+react@16.14.0
+      rc-trigger: 5.3.4_react-dom@16.14.0+react@16.14.0
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /rc-motion/2.6.3_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-motion/2.6.3_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-xFLkes3/7VL/J+ah9jJruEW/Akbx5F6jVa2wG5o/ApGKQKSOd5FR3rseHLL9+xtJg4PmCwo6/1tqhDO/T+jFHA==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7493,23 +7438,20 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /rc-notification/3.3.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-notification/3.3.1:
     resolution: {integrity: sha512-U5+f4BmBVfMSf3OHSLyRagsJ74yKwlrQAtbbL5ijoA0F2C60BufwnOcHG18tVprd7iaIjzZt1TKMmQSYSvgrig==}
     dependencies:
       babel-runtime: 6.26.0
       classnames: 2.3.1
       prop-types: 15.8.1
-      rc-animate: 2.11.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-animate: 2.11.1
       rc-util: 4.21.1
-    transitivePeerDependencies:
-      - react
-      - react-dom
 
-  /rc-overflow/1.2.8_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-overflow/1.2.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-QJ0UItckWPQ37ZL1dMEBAdY1dhfTXFL9k6oTTcyydVwoUNMnMqCGqnRNA98axSr/OeDKqR6DVFyi8eA5RQI/uQ==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7517,12 +7459,12 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
-      rc-resize-observer: 1.3.1_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-resize-observer: 1.3.1_react-dom@16.14.0+react@16.14.0
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /rc-resize-observer/1.3.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-resize-observer/1.3.1_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-iFUdt3NNhflbY3mwySv5CA1TC06zdJ+pfo0oc27xpf4PIOvfZwZGtD9Kz41wGYqC4SLio93RVAirSSpYlV/uYg==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7530,26 +7472,23 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       classnames: 2.3.2
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
       resize-observer-polyfill: 1.5.1
 
-  /rc-trigger/2.6.5_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-trigger/2.6.5:
     resolution: {integrity: sha512-m6Cts9hLeZWsTvWnuMm7oElhf+03GOjOLfTuU0QmdB9ZrW7jR2IpI5rpNM7i9MvAAlMAmTx5Zr7g3uu/aMvZAw==}
     dependencies:
       babel-runtime: 6.26.0
       classnames: 2.3.1
       prop-types: 15.8.1
       rc-align: 2.4.5
-      rc-animate: 2.11.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-animate: 2.11.1
       rc-util: 4.21.1
       react-lifecycles-compat: 3.0.4
-    transitivePeerDependencies:
-      - react
-      - react-dom
 
-  /rc-trigger/5.3.4_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-trigger/5.3.4_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-mQv+vas0TwKcjAO2izNPkqR4j86OemLRmvL2nOzdP9OWNWA1ivoTt5hzFqYNW9zACwmTezRiN8bttrC7cZzYSw==}
     engines: {node: '>=8.x'}
     peerDependencies:
@@ -7558,9 +7497,9 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       classnames: 2.3.1
-      rc-align: 4.0.15_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-motion: 2.6.3_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-util: 5.28.0_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-align: 4.0.15_react-dom@16.14.0+react@16.14.0
+      rc-motion: 2.6.3_react-dom@16.14.0+react@16.14.0
+      rc-util: 5.28.0_react-dom@16.14.0+react@16.14.0
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
@@ -7573,7 +7512,7 @@ packages:
       react-lifecycles-compat: 3.0.4
       shallowequal: 1.1.0
 
-  /rc-util/5.28.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /rc-util/5.28.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-KYDjhGodswVj29v0TRciKTqRPgumIFvFDndbCD227pitQ+0Cei196rxk+OXb/blu6V8zdTRK5RjCJn+WmHLvBA==}
     peerDependencies:
       react: '>=16.9.0'
@@ -7593,7 +7532,7 @@ packages:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  /react-autosize-textarea/7.1.0_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-autosize-textarea/7.1.0_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-BHpjCDkuOlllZn3nLazY2F8oYO1tS2jHnWhcjTWQdcKiiMU6gHLNt/fzmqMSyerR0eTdKtfSIqtSeTtghNwS+g==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0
@@ -7605,19 +7544,16 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /react-ctxmenu-trigger/1.0.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-ctxmenu-trigger/1.0.1:
     resolution: {integrity: sha512-nDWBsoOOsvV6LQJWNedG/Z0LmF2eorl83isucRoUO90WVyl/IJ8QN7d1NV4IDSk1WXrZ3DVTbtsjfPminf7hOQ==}
     dependencies:
       babel-runtime: 6.26.0
       prop-types: 15.8.1
       rc-align: 2.4.5
-      rc-animate: 2.11.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-animate: 2.11.1
       rc-util: 4.21.1
-    transitivePeerDependencies:
-      - react
-      - react-dom
 
-  /react-custom-scrollbars/4.2.1_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-custom-scrollbars/4.2.1_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-VtJTUvZ7kPh/auZWIbBRceGPkE30XBYe+HktFxuMWBR2eVQQ+Ur6yFJMoaYcNpyGq22uYJ9Wx4UAEcC0K+LNPQ==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0
@@ -7646,7 +7582,7 @@ packages:
   /react-lifecycles-compat/3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
 
-  /react-mentions/3.3.2_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-mentions/3.3.2_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-JEuJMnjXOoLo+gkT59ZscZ9ulV7O333cu81pKiWutuX0CCyoedJTxPDlVJAxoaDSUwsMgOmb3GmuiwafWYdizg==}
     peerDependencies:
       react: 16.x
@@ -7660,7 +7596,7 @@ packages:
       substyle: 6.3.1_react@16.14.0
     dev: false
 
-  /react-sticky/6.0.3_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-sticky/6.0.3_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-LNH4UJlRatOqo29/VHxDZOf6fwbgfgcHO4mkEFvrie5FuaZCSTGtug5R8NGqJ0kSnX8gHw8qZN37FcvnFBJpTQ==}
     peerDependencies:
       react: '>=15'
@@ -7671,7 +7607,7 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /react-virtualized-auto-sizer/1.0.7_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-virtualized-auto-sizer/1.0.7_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-Mxi6lwOmjwIjC1X4gABXMJcKHsOo0xWl3E3ugOgufB8GJU+MqrtY35aBuvCYv/razQ1Vbp7h1gWJjGjoNN5pmA==}
     engines: {node: '>8.0.0'}
     peerDependencies:
@@ -7681,7 +7617,7 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /react-virtuoso/3.1.5_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-virtuoso/3.1.5_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-Dwf7SGr73UAahfcQNIND+c+MtCb0PeHu+QTZ5ptR7oXxQkupfHXEKGwEDF5lDkLqdGxm+yH4uh/IFCqMKxudJw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7693,7 +7629,7 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
 
-  /react-window/1.8.8_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-window/1.8.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-D4IiBeRtGXziZ1n0XklnFGu7h9gU684zepqyKzgPNzrsrk7xOCxni+TCckjg2Nr/DiaEEGVVmnhYSlT2rB47dQ==}
     engines: {node: '>8.0.0'}
     peerDependencies:
@@ -8033,8 +7969,6 @@ packages:
       on-finished: 2.4.1
       range-parser: 1.2.1
       statuses: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /serialize-javascript/4.0.0:
@@ -8072,8 +8006,6 @@ packages:
       http-errors: 1.6.3
       mime-types: 2.1.35
       parseurl: 1.3.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /serve-static/1.15.0:
@@ -8084,8 +8016,6 @@ packages:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.18.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /serviceworker-webpack-plugin/1.0.1_webpack@5.75.0:
@@ -8094,11 +8024,15 @@ packages:
       webpack: ^4
     dependencies:
       minimatch: 3.1.2
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /set-blocking/2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
+
+  /setimmediate/1.0.5:
+    resolution: {integrity: sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==}
+    dev: false
 
   /setprototypeof/1.1.0:
     resolution: {integrity: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==}
@@ -8524,7 +8458,7 @@ packages:
       loader-utils: 2.0.4
       schema-utils: 2.7.1
       tslib: 2.5.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /stylehacks/5.1.1_postcss@8.4.21:
@@ -8663,13 +8597,11 @@ packages:
       serialize-javascript: 5.0.1
       source-map: 0.6.1
       terser: 5.16.6
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-sources: 1.4.3
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
-  /terser-webpack-plugin/5.3.7_tmqq2kucjdcdmhjgvb5npzv36a:
+  /terser-webpack-plugin/5.3.7_esbuild@0.15.18+webpack@5.75.0:
     resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -8691,7 +8623,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.1
       terser: 5.16.6
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /terser/5.16.6:
@@ -8795,7 +8727,7 @@ packages:
     resolution: {integrity: sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==}
     dev: true
 
-  /ts-loader/9.4.2_uyjeyilaoraoef7u6cc2jqrzqe:
+  /ts-loader/9.4.2_typescript@4.5.5+webpack@5.75.0:
     resolution: {integrity: sha512-OmlC4WVmFv5I0PpaxYb+qGeGOdm5giHU7HwDDUjw59emP2UYMHy9fFSDcYgSNoH8sXcj4hGCSEhlDZ9ULeDraA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -8807,7 +8739,7 @@ packages:
       micromatch: 4.0.5
       semver: 7.3.8
       typescript: 4.5.5
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
   /ts-node/10.9.1_typescript@4.5.5:
@@ -9082,9 +9014,6 @@ packages:
     resolution: {integrity: sha512-AFLVT7GLCvTcw0HszhwxD1GCBboIeZSxqlk0myNXVLIfjelLl8rybm8KmRjoYcWH7uXqMC0qwhKk7Vj4wppiFQ==}
     dependencies:
       chrome-remote-interface: 0.26.1
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
     dev: false
 
   /validate-npm-package-license/3.0.4:
@@ -9172,13 +9101,9 @@ packages:
       mkdirp: 0.5.6
       opener: 1.5.2
       ws: 6.2.2
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
     dev: true
 
-  /webpack-cli/5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4:
+  /webpack-cli/5.0.1_b82df26df6da2e24c51f20faf73f8687:
     resolution: {integrity: sha512-S3KVAyfwUqr0Mo/ur3NzIp6jnerNpo7GUO6so51mxLi1spqsA17YcMXy0WOIJtBSnj748lthxC6XLbNKh/ZC+A==}
     engines: {node: '>=14.15.0'}
     hasBin: true
@@ -9196,9 +9121,9 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 2.0.1_rjsyjcrmk25kqsjzwkvj3a2evq
-      '@webpack-cli/info': 2.0.1_rjsyjcrmk25kqsjzwkvj3a2evq
-      '@webpack-cli/serve': 2.0.1_ewykyfxtgmraekx43xa23ld4wa
+      '@webpack-cli/configtest': 2.0.1_webpack-cli@5.0.1+webpack@5.75.0
+      '@webpack-cli/info': 2.0.1_webpack-cli@5.0.1+webpack@5.75.0
+      '@webpack-cli/serve': 2.0.1_25b0ac16f33322022afcddc1adac7cb0
       colorette: 2.0.19
       commander: 9.5.0
       cross-spawn: 7.0.3
@@ -9207,9 +9132,9 @@ packages:
       import-local: 3.1.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
       webpack-bundle-analyzer: 3.9.0
-      webpack-dev-server: 4.11.1_mepfaevnoemy6jnc3vj4bih4vm
+      webpack-dev-server: 4.11.1_611e5012ad71198f25a2dd53c0a0fcab
       webpack-merge: 5.8.0
     dev: true
 
@@ -9224,10 +9149,10 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
     dev: true
 
-  /webpack-dev-server/4.11.1_mepfaevnoemy6jnc3vj4bih4vm:
+  /webpack-dev-server/4.11.1_611e5012ad71198f25a2dd53c0a0fcab:
     resolution: {integrity: sha512-lILVz9tAUy1zGFwieuaQtYiadImb5M3d+H+L1zDYalYoDl0cksAB1UNyuE5MMWJrG6zR1tXkCP2fitl7yoUJiw==}
     engines: {node: '>= 12.13.0'}
     hasBin: true
@@ -9255,7 +9180,7 @@ packages:
       express: 4.18.2
       graceful-fs: 4.2.10
       html-entities: 2.3.3
-      http-proxy-middleware: 2.0.6_cdocoejotnspksifechgljubnq
+      http-proxy-middleware: 2.0.6_10dc27112e9b64f54905208e65a6816c
       ipaddr.js: 2.0.1
       open: 8.4.2
       p-retry: 4.6.2
@@ -9265,8 +9190,8 @@ packages:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack: 5.75.0_f3otixjwpq34f5ilk3wufwxnca
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
+      webpack: 5.75.0_2edd345d367c37c2f50b56ed42daed10
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
       webpack-dev-middleware: 5.3.3_webpack@5.75.0
       ws: 8.13.0
     transitivePeerDependencies:
@@ -9312,7 +9237,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack/5.75.0_f3otixjwpq34f5ilk3wufwxnca:
+  /webpack/5.75.0_2edd345d367c37c2f50b56ed42daed10:
     resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -9343,9 +9268,9 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.7_tmqq2kucjdcdmhjgvb5npzv36a
+      terser-webpack-plugin: 5.3.7_esbuild@0.15.18+webpack@5.75.0
       watchpack: 2.4.0
-      webpack-cli: 5.0.1_xaw7e3pw3ixcjri7ed5pop4gq4
+      webpack-cli: 5.0.1_b82df26df6da2e24c51f20faf73f8687
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
@@ -9445,14 +9370,6 @@ packages:
 
   /ws/3.3.3:
     resolution: {integrity: sha512-nnWLa/NwZSt4KQJu51MYlCcSQ5g7INpOrOMt4XV8j4dqTXdmlUmSHQ8/oLC069ckre0fRsgfvsKwbTdtKLCDkA==}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
     dependencies:
       async-limiter: 1.0.1
       safe-buffer: 5.1.2
@@ -9461,14 +9378,6 @@ packages:
 
   /ws/6.2.2:
     resolution: {integrity: sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
     dependencies:
       async-limiter: 1.0.1
 
@@ -9580,9 +9489,6 @@ packages:
     optionalDependencies:
       ws: 6.2.2
       y-leveldb: 0.1.2_yjs@13.5.39
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
     dev: false
 
   /y18n/4.0.3:

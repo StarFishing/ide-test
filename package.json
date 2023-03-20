@@ -10,6 +10,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "pnpm": {
+    "overrides": {
+      "vscode-languageserver-protocol": "3.16.0",
+      "@opensumi/vscode-jsonrpc": "8.0.0-next.9"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
